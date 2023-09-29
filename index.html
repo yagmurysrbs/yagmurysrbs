@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      .buyuk-top {
+        width: 320px;
+        height: 320px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+      }
+
+      .kucuk-top {
+        width: 160px;
+        height: 160px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+      }
+
+      .sekiz {
+        font-size: 100px;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+      }
+    </style>
+
+    <script>
+      const ismim = "yagmur";
+      const mesajlar = ["evet", "hayır", "kesinlikle"];
+
+      const sayi = Math.floor(Math.random() * 3);
+      console.log(sayi);
+      console.log(mesajlar[sayi]);
+    </script>
+  </head>
+  <body>
+    <h1>Sence yazılım öğrenmeli miyim?</h1>
+    <div class="buyuk-top">
+      <div class="kucuk-top">
+        <div class="sekiz">8</div>
+      </div>
+    </div>
+  </body>
+</html>
